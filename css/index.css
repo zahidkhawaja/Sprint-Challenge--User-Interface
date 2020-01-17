@@ -70,7 +70,6 @@ p {
 .navigation {
     display: flex;
     justify-content: center;
-    border: 3px solid orange;
     margin-top: 25px;
     width: 800px;
 }
@@ -85,12 +84,7 @@ p {
     justify-content: center;
 }
 
-.homebanner {
-    border: 5px solid purple;
-}
-
 .bannercontainer {
-    border: 5px solid green;
     display: flex;
     justify-content: center;
     margin: 25px 0px 25px 0px;
@@ -230,4 +224,29 @@ footer nav a {
 
 .second-row {
     margin-bottom: 45px;
+}
+
+.learnmore {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2 {
+    margin-top: 15px;
+}
+
+#bottomp {
+    margin-bottom: 50px;
+}
+
+hr {
+    margin-top: 25px;
+    border: dashed;
+    border-width: thin;
 }
