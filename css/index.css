@@ -87,7 +87,7 @@ p {
 .bannercontainer {
     display: flex;
     justify-content: center;
-    margin: 25px 0px 25px 0px;
+    margin: 25px 0px 15px 0px;
 }
 
 .navigation .links {
@@ -219,7 +219,7 @@ footer nav a {
 
 .first-row, .second-row {
     display: flex;
-    margin-top: 45px;
+    margin-top: 35px;
 }
 
 .second-row {
@@ -238,7 +238,7 @@ footer nav a {
 }
 
 .container h2 {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 #bottomp {
@@ -254,3 +254,20 @@ hr {
 .worktogether {
     margin-top: 50px;
 }
+
+.boxes {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
