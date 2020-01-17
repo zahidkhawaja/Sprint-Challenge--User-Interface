@@ -48,7 +48,9 @@ Content, padding, border, margin.
 
 On the cross axis (Y axis).
 
-5. Explain why git is valuable to a team of developers. Each person can work in their own branch. Also, git provides version control.
+5. Explain why git is valuable to a team of developers. 
+
+Each person can work in their own branch. Also, git provides version control.
 
 Git allows developers to seamlessly work on code together.
 
