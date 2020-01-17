@@ -51,6 +51,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -64,6 +65,42 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    border: 3px solid orange;
+    margin-top: 25px;
+    width: 800px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.navcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.homebanner {
+    border: 5px solid purple;
+}
+
+.bannercontainer {
+    border: 5px solid green;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 25px 0px;
+}
+
+.navigation .links {
+    display: flex;
+    width: 59%;
+    justify-content: space-evenly;
+    align-items: flex-end; 
 }
 
 .container {
