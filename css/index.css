@@ -223,7 +223,7 @@ footer nav a {
 }
 
 .second-row {
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
 
 .learnmore {
@@ -249,4 +249,8 @@ hr {
     margin-top: 25px;
     border: dashed;
     border-width: thin;
+}
+
+.worktogether {
+    margin-top: 50px;
 }
