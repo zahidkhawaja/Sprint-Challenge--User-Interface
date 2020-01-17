@@ -38,7 +38,7 @@ Using meaningful tags in HTML (specific, and not generic).
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Display: block starts a new line and takes the entire width. display:inline stays on the line and preserves the width.
+Display: block starts a new line and takes the entire width. display:inline stays on the line and takes only necessary width.
 
 3. What are the 4 areas of the box model?
 
@@ -48,7 +48,7 @@ Content, padding, border, margin.
 
 On the cross axis (Y axis).
 
-5. Explain why git is valuable to a team of developers.
+5. Explain why git is valuable to a team of developers. Each person can work in their own branch. Also, git provides version control.
 
 Git allows developers to seamlessly work on code together.
 
