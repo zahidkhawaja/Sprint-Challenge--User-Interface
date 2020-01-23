@@ -51,6 +51,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -64,6 +65,36 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 800px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.navcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.bannercontainer {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 15px 0px;
+}
+
+.navigation .links {
+    display: flex;
+    width: 59%;
+    justify-content: space-evenly;
+    align-items: flex-end; 
 }
 
 .container {
@@ -110,6 +141,47 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: red;
+}
+
+.middle-content .boxes .one {
+    background-color: teal;
+}
+
+.middle-content .boxes .two {
+    background-color: gold;
+}
+
+.middle-content .boxes .three {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .four {
+    background-color: coral;
+}
+
+.middle-content .boxes .five {
+    background-color: crimson;
+}
+
+.middle-content .boxes .six {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .seven {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .eight {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .nine {
+    background-color: indigo;
+}
+
+.middle-content .boxes .ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +216,58 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.first-row, .second-row {
+    display: flex;
+    margin-top: 35px;
+}
+
+.second-row {
+    margin-bottom: 35px;
+}
+
+.learnmore {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2 {
+    margin-top: 25px;
+}
+
+#bottomp {
+    margin-bottom: 50px;
+}
+
+hr {
+    margin-top: 25px;
+    border: dashed;
+    border-width: thin;
+}
+
+.worktogether {
+    margin-top: 50px;
+}
+
+.boxes {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
